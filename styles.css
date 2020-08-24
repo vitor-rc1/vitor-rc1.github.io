@@ -1,4 +1,5 @@
 body {
+    margin-top: 5rem;
     background: #0B3954;
     color: white;
     font-size: 16px;
@@ -14,6 +15,7 @@ a {
 li {
     text-align: left;
     list-style-type: none;
+    line-height: 25px;
 }
 .header {
     text-align: center;
@@ -32,8 +34,8 @@ li {
 .contact {
     margin: 5px;
 }
-@media (min-width:1100px){
-    body {
-        margin: 5rem 15rem;
+@media (max-width:1100px){
+    .content{
+        width: 90%;
     }
 }
